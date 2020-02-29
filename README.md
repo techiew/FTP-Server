@@ -1,6 +1,8 @@
 ## FTP Server
 
-Based on [pyftpdlib](https://github.com/giampaolo/pyftpdlib). To download the required packages, create a virtual environment and run:
+Based on [pyftpdlib](https://github.com/giampaolo/pyftpdlib). 
+
+To download the required packages, create a virtual environment and run:
 
 ```pip install requirements.txt```
 &nbsp;
