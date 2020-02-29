@@ -1,6 +1,6 @@
 ### FTP Server
 
-This is based on [pyftpdlib](https://github.com/giampaolo/pyftpdlib).
+Based on [pyftpdlib](https://github.com/giampaolo/pyftpdlib).
 
 
 This is a simple FTP (File Transfer Protocol) server which allows sharing of files over the internet or on a local network. This server is not secure at all since it does not use any encryption (because firewalls and routers really do not like encrypted FTP, Windows explorer doesn't like it either, which I wanted to use as an FTP client).
