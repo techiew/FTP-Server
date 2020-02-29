@@ -24,4 +24,4 @@ The user accounts used for logging into the server will be fetched from the file
 | examplename | examplepassword | admin |
 | anotherexample | anotherpassword | admin |
 
-**(The header needs to be included in the actual file, also there are newlines at the end of each row)**
+(The header needs to be included in the actual file, also there are newlines at the end of each row)
