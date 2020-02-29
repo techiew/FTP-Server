@@ -11,6 +11,8 @@ To download the required packages, create a virtual environment and run:
 
 This is a simple FTP (File Transfer Protocol) server which allows sharing of files over the internet or on a local network. This server is not secure at all since it does not use any encryption (because firewalls and routers **really** do not like encrypted FTP, Windows explorer doesn't like it either, which I wanted to use as an FTP client).
 
+
+### Requirements to run
 When the code runs, it will expect a couple of folders and files to be present, it will crash if they don't exist. Those files and folders are not included in the repo.
 
 
