@@ -3,7 +3,9 @@
 Based on [pyftpdlib](https://github.com/giampaolo/pyftpdlib).
 
 To download the required packages, create a virtual environment and run:
-'''pip install requirements.txt'''
+```pip install requirements.txt```
+
+
 
 This is a simple FTP (File Transfer Protocol) server which allows sharing of files over the internet or on a local network. This server is not secure at all since it does not use any encryption (because firewalls and routers really do not like encrypted FTP, Windows explorer doesn't like it either, which I wanted to use as an FTP client).
 
