@@ -1,0 +1,10 @@
+
+.idea/
+
+Repository/Private/
+
+Repository/Shared/
+
+users.csv
+
+venv/
