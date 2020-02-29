@@ -13,9 +13,9 @@ Two of the folders that it expects are named in the variables "private_files" an
 
 The user accounts used for logging into the server will be fetched from the file "users.csv" (see [how CSV works](https://www.computerhope.com/issues/ch001356.htm)) while the different user types available for these accounts can be found in code. If "users.csv" doesn't exist the program will crash. The structure of the file is like this: 
 
-| username, | password, | user_type, |
+| username | password | user_type |
 | -------- | -------- | --------- |
-| examplename, | examplepassword, | admin, |
-| anotherexample, | anotherpassword, | admin |
+| examplename | examplepassword | admin |
+| anotherexample | anotherpassword | admin |
 
 (The header needs to be included in the actual file, also there are newlines at the end of each row)
