@@ -2,7 +2,7 @@
 
 Based on [pyftpdlib](https://github.com/giampaolo/pyftpdlib). 
 
-To download the required packages, create a virtual environment and run:
+To download the required packages, first create and activate a virtual environment and then run this command:
 
 ```pip install -r requirements.txt```
 
