@@ -26,7 +26,6 @@ Write permissions:
  - "T" = update file last modified time (MFMT command)
 """
 
-
 def main():
     users = get_users()
     authorizer = DummyAuthorizer()
@@ -36,7 +35,6 @@ def main():
 
     # Sets home folder and permissions for each user
     for user in users:
-
         if user.user_type == "admin":
             home = os.getcwd() + private_files
             permissions = "elradfmwMT"
@@ -58,9 +56,7 @@ def main():
     server = FTPServer(("0.0.0.0", 21), handler)
     server.max_cons = 200
     server.max_cons_per_ip = 10
-
     server.serve_forever()
-
 
 # Reads user accounts from a .csv file
 def get_users():
@@ -79,7 +75,6 @@ def get_users():
             print(user.username + ", " + user.password + ", " + user.user_type)
 
     return users
-
 
 # Gets the local IP of the machine the server is running on
 # The code for this was found here: https://stackoverflow.com/a/28950776/11562557
